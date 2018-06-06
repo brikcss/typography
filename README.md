@@ -64,8 +64,11 @@ Front end component to make managing typography in HTML and CSS easier.
 
 2. Include file(s) in your app:
 
-	- Include `./dist/typography.min.css` or `./dist/typography.css` for the precompiled CSS.
-	- To create your own custom typography styles, follow `./src/typography.css` as an example. It is compiled with PostCSS using [postcss-font-magician](https://github.com/jonathantneal/postcss-font-magician), [postcss-apply](https://github.com/pascalduez/postcss-apply), and [postcss-pxtorem](https://github.com/cuth/postcss-pxtorem).
+	- _PostCSS:_ The `main` file in package.json resolves to `./src/typography.css`. This must be used with PostCSS and must include [postcss-font-magician](https://github.com/jonathantneal/postcss-font-magician), [postcss-apply](https://github.com/pascalduez/postcss-apply), and [postcss-pxtorem](https://github.com/cuth/postcss-pxtorem).
+
+	- _Precompiled:_ Or you can include the precompiled version: `./dist/typography.min.css`.
+
+	- _Custom build:_ To create your own custom typography styles, follow the example in `./src/typography.css`.
 
 ## Usage
 
