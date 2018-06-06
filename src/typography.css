@@ -1,0 +1,149 @@
+/*! typography.init.css | MIT License | brikcss  <https://github.com/brikcss> */
+
+/** Define font styles.
+    ============================================================================================= */
+
+/* stylelint-disable max-nesting-depth */
+:root {
+	--font__overline: {
+		font-size: 10px;
+		letter-spacing: 2.4px;
+		line-height: 2rem;
+		text-transform: uppercase;
+	}
+
+	--font__caption: {
+		font-size: 12px;
+		line-height: 2rem;
+		letter-spacing: 0.53333px;
+	}
+
+	--font__button: {
+		font-size: 14px;
+		font-weight: 500;
+		text-transform: uppercase;
+		line-height: 2rem;
+		letter-spacing: 0.85714px;
+	}
+
+	--font__body2: {
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 3rem;
+		letter-spacing: 0.28571px;
+	}
+
+	--font__body: {
+		color: var(--color__dark, hsla(0, 0%, 0%, 0.87));
+		font-size: 16px;
+		line-height: 3rem;
+		letter-spacing: 0.5px;
+	}
+
+	--font__subtitle2: {
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 3rem;
+		letter-spacing: 0.11429px;
+	}
+
+	--font__subtitle: {
+		font-size: 16px;
+		line-height: 3rem;
+		letter-spacing: 0.15px;
+	}
+
+	--font__h6: {
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 3rem;
+		letter-spacing: 0.12px;
+	}
+
+	--font__h5: {
+		font-size: 24px;
+		line-height: 4rem;
+	}
+
+	--font__h4: {
+		font-size: 34px;
+		line-height: 5rem;
+		letter-spacing: 0.11765px;
+	}
+
+	--font__h3: {
+		font-size: 48px;
+		line-height: 6rem;
+	}
+
+	--font__h2: {
+		font-size: 60px;
+		font-weight: 300;
+		line-height: 8rem;
+		letter-spacing: -0.13333px;
+	}
+
+	--font__h1: {
+		font-size: 96px;
+		font-weight: 300;
+		line-height: 12rem;
+		letter-spacing: -0.25px;
+	}
+}
+
+/** Font defaults.
+    ============================================================================================= */
+
+/* stylelint-disable-next-line selector-max-type */
+html {
+	font-size: var(--base-rhythm, 8px);
+}
+
+body {
+	@apply --font__body;
+	font-family: 'Roboto', sans-serif;
+	font-size: var(--base-font__size, 16px);
+}
+
+/** Font helper classes.
+    ============================================================================================= */
+
+.font__overline {
+	@apply --font__overline;
+}
+.font__caption {
+	@apply --font__caption;
+}
+.font__button {
+	@apply --font__button;
+}
+.font__body2 {
+	@apply --font__body2;
+}
+.font__body {
+	@apply --font__body;
+}
+.font__subtitle2 {
+	@apply --font__subtitle2;
+}
+.font__subtitle {
+	@apply --font__subtitle;
+}
+.font__h6 {
+	@apply --font__h6;
+}
+.font__h5 {
+	@apply --font__h5;
+}
+.font__h4 {
+	@apply --font__h4;
+}
+.font__h3 {
+	@apply --font__h3;
+}
+.font__h2 {
+	@apply --font__h2;
+}
+.font__h1 {
+	@apply --font__h1;
+}
