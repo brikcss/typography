@@ -1,6 +1,6 @@
 {
 	"name": "@brikcss/typography",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Typography component to make managing typography in CSS easier.",
 	"author": "Brikcss <https://github.com/brikcss>",
 	"contributors": [
@@ -19,7 +19,7 @@
 		"css",
 		"typography"
 	],
-	"main": "./dist/typography.init.min.css",
+	"main": "./dist/typography.min.css",
 	"files": [
 		"dist",
 		"src"
