@@ -26,7 +26,7 @@ let config = {
 
 if (isProd) {
 	config.css_min = Object.assign({}, config.css, {
-		output: 'src/typography.min.css',
+		output: 'dist/typography.min.css',
 		bundlers: [
 			{
 				run: '@brikcss/stakcss-bundler-postcss',
