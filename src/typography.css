@@ -36,6 +36,7 @@
 	--font__body: {
 		color: var(--color__dark, hsla(0, 0%, 0%, 0.87));
 		font-size: 16px;
+		font-weight: 400;
 		line-height: 3rem;
 		letter-spacing: 0.5px;
 	}
@@ -49,6 +50,7 @@
 
 	--font__subtitle: {
 		font-size: 16px;
+		font-weight: 400;
 		line-height: 3rem;
 		letter-spacing: 0.15px;
 	}
@@ -62,17 +64,20 @@
 
 	--font__h5: {
 		font-size: 24px;
+		font-weight: 400;
 		line-height: 4rem;
 	}
 
 	--font__h4: {
 		font-size: 34px;
+		font-weight: 400;
 		line-height: 5rem;
 		letter-spacing: 0.11765px;
 	}
 
 	--font__h3: {
 		font-size: 48px;
+		font-weight: 400;
 		line-height: 6rem;
 	}
 
