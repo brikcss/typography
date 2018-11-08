@@ -1,5 +1,7 @@
 # Brikcss Typography
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/brikcss/typography.svg)](https://greenkeeper.io/)
+
 <!-- Shields. -->
 <p>
 	<!-- NPM version. -->
